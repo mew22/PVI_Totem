@@ -51,9 +51,9 @@ $(document).on("click", "#welcome", function () {
 
 function setArrowPosition(position) {
     if (position === ArrowPosition.CENTER) {
-        $("#arrows").css({"position": "absolute", "top": "50%"})
+        $("#arrows").css({"position": "absolute", "top": "50vh"})
     } else {
-        $("#arrows").css({"position": "absolute", "top": "10%"})
+        $("#arrows").css({"position": "absolute", "top": "10vh"})
     }
 }
 
