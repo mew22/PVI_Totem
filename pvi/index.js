@@ -58,13 +58,12 @@ function setArrowPosition(position) {
 }
 
 function startAutomaticSwipe() {
-    timeoutId = setTimeout(() => { swipe(SwipeDirection.Right)}, automaticSwipeTimeoutInMilliSecond)
+    //timeoutId = setTimeout(() => { swipe(SwipeDirection.Right)}, automaticSwipeTimeoutInMilliSecond)
 
 }
 
 function stopAutomaticSwipe() {
-    clearTimeout(timeoutId)
-
+    //clearTimeout(timeoutId)
 }
 
 function swipe(direction) {
