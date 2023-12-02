@@ -26,6 +26,14 @@ body {
     display: flex;
 }
 
+.clock {
+    position: absolute;
+    width: 50vh;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #welcome {
     display: block;
     text-align: center;
