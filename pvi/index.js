@@ -18,7 +18,7 @@ let timeoutId;
 
 let currentPage = 0;
 
-const automaticSwipeTimeoutInMilliSecond = 5000
+const automaticSwipeTimeoutInMilliSecond = 30000
 
 const SwipeDirection = {
     Left: "gauche",
@@ -53,17 +53,17 @@ function setArrowPosition(position) {
     if (position === ArrowPosition.CENTER) {
         $("#arrows").css({"position": "absolute", "top": "50vh"})
     } else {
-        $("#arrows").css({"position": "absolute", "top": "10vh"})
+        $("#arrows").css({"position": "absolute", "top": "9vh"})
     }
 }
 
 function startAutomaticSwipe() {
-    //timeoutId = setTimeout(() => { swipe(SwipeDirection.Right)}, automaticSwipeTimeoutInMilliSecond)
+    timeoutId = setTimeout(() => { swipe(SwipeDirection.Right)}, automaticSwipeTimeoutInMilliSecond)
 
 }
 
 function stopAutomaticSwipe() {
-    //clearTimeout(timeoutId)
+    clearTimeout(timeoutId)
 }
 
 function swipe(direction) {
