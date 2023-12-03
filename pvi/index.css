@@ -35,9 +35,7 @@ body {
 }
 
 #welcome {
-    display: block;
     text-align: center;
-    margin: 0 auto;
     position: absolute;
     top: 80vh;
     left: 50%;
@@ -52,6 +50,7 @@ body {
     border-radius: 8vh;
     font-size: 2.5vh;
     max-lines: 1;
+    white-space:nowrap;
     font-family: "Montserrat-Bold";
 }
 
