@@ -1,0 +1,8 @@
+#accueil_background {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
