@@ -6,6 +6,7 @@ pageList = [
     "page/nomination.html",
     "page/restaurant.html",
     "page/bonne_journee.html",
+    "page/projet_pro_2024.html",
     "page/noel.html",
     "page/acces.html",
     "page/vehicule_fonction.html",
