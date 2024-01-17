@@ -1,0 +1,33 @@
+#accueil_background {
+    max-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -95vh;
+}
+
+#accueil_logo_pvi {
+    max-width: 36vh;
+    max-height: 15vh;
+    padding: 2vh;
+    position: absolute;
+    top: 4vh;
+    left: 4vh;
+    background: white;
+}
+
+#accueil_logo_escal {
+    max-width: 36vh;
+    max-height: 15vh;
+    padding: 2vh;
+    position: absolute;
+    top: 20vh;
+    left: 4vh;
+    background: white;
+}
+
+#porte_ouverte {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
