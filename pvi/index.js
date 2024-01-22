@@ -3,16 +3,12 @@ pageList = [
     "page/histoire.html",
     "page/metiers.html",
     "page/epi.html",
-    "page/nomination.html",
-    "page/restaurant.html",
+    "page/covid.html",
     "page/bonne_journee.html",
-    "page/projet_pro_2024.html",
-    "page/noel.html",
-    "page/acces.html",
-    "page/vehicule_fonction.html",
-    "page/projet_entreprise.html",
     "page/traffic_etech.html",
     "page/actu.html",
+    "page/projet_pro_2024.html",
+    "page/cybersecu.html",
 ]
 
 pageAccueil = [
