@@ -1,12 +1,13 @@
 pageList = [
     "page/accueil.html",
     "page/epi.html",
-    "page/nomination.html",
-    "page/restaurant.html",
-    "page/acces.html",
+    "page/traffic_etech.html",
+    "page/bonne_journee.html",
     "page/actu.html",
+    "page/covid.html",
 ]
 
 pageAccueil = [
     "page/accueil.html",
+    "page/bonne_journee.html",
 ]

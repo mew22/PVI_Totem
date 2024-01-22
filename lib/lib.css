@@ -73,6 +73,13 @@ body {
     background: white;
 }
 
+#bonne_journee {
+    max-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .page_img {
     object-fit: cover;
     position: absolute;
