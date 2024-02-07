@@ -10,6 +10,7 @@ pageList = [
     "../page/changement_janvier_3.html",
     "page/bonne_journee.html",
     "../page/traffic_etech.html",
+    "../page/campagne_entretiens.html",
     "../page/actu.html",
     "../page/projet_pro_2024.html",
     "../page/cybersecu.html",
