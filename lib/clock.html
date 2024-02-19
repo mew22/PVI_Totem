@@ -19,7 +19,7 @@
             <div class="time-colon">
                 <div class="time-text">
                     <span class="num hour_num">08</span>
-                    <span class="text">Hours</span>
+                    <span class="text">Heures</span>
                 </div>
                 <span class="colon">:</span>
             </div>
@@ -33,11 +33,13 @@
             <div class="time-colon">
                 <div class="time-text">
                     <span class="num sec_num">06</span>
-                    <span class="text">Seconds</span>
+                    <span class="text">Secondes</span>
                 </div>
                 <span class="am_pm">AM</span>
             </div>
         </div>
+        <div class="break"></div>
+        <div id="date"></div>
     </div>
 
 </section>
@@ -70,6 +72,9 @@
         $(".min_num").text(min)
         $(".sec_num").text(sec)
         $(".am_pm").text(d)
+        $("#date").text(
+            date.toLocaleDateString('fr-fr', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
+        )
 
     }, 1000); // 1000 milliseconds = 1s
 

@@ -17,6 +17,7 @@ section{
 section .container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     height: 10vh;
     max-width: 30vh;
@@ -76,6 +77,9 @@ section .container .time{
 section.dark .time .time-colon .am_pm{
     color: #fff;
 }
+section.dark #date {
+    color: #fff;
+}
 .time .time-colon .time-text{
     height: 100px;
     width: 100px;
@@ -110,4 +114,13 @@ section.dark .time .colon{
 }
 section.dark  .time .time-colon .text{
     color: #fff;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+#date {
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    letter-spacing: 2px;
 }
