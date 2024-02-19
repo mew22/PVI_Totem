@@ -17,6 +17,7 @@ pageList = [
     "../page/conge_exceptionnels_1.html",
     "../page/conge_exceptionnels_2.html",
     "../page/conge_exceptionnels_3.html",
+    "../page/nomination_theodore.html",
 ]
 
 pageAccueil = [
